@@ -1,0 +1,134 @@
+/* 
+font-family: 'Abril Fatface', cursive;
+font-family: 'Poppins', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-image: url(bg.svg);
+    color: #000;
+    
+}
+.main-container{
+    width: 1100px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
+    margin: 30px auto;
+    background-image: linear-gradient(to right top, #b8cbd6, #cad3e0, #dbdbe7, #eae5ed, #f6eff3);
+    border-radius: 30px;
+    padding: 10px;
+    height: 700px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5rem;
+    padding: 2rem 0;
+}
+.navigation .list{
+    display: flex;
+    align-items: center;
+}
+.list li{
+    margin: 0 2rem;
+}
+.list li a{
+    color: inherit;
+    text-transform: uppercase;
+
+}
+.logo h1{
+    color: inherit;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    
+}
+
+.section-main{
+    display: flex;
+    margin: 0 5rem;
+}
+.right{
+    width: 100%;
+    margin-left: 1.5rem;
+    margin-top: 50px;
+}
+.left{
+    width: 100%;
+    
+}
+.left p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: inherit;
+    font-size: .8rem;
+    margin-bottom: 3rem;
+}
+.left h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: inherit;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    
+}
+.left a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #ef5AAC
+}
+.img-container{
+    position: relative;
+    width: 100%;
+    /* margin-right: 30rem;   */
+}
+.shopper{
+    width: 55%;
+    position: absolute;
+    z-index: 5;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 30px;
+
+}
+.circle{
+    width: 90%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.dot-1,
+.dot-2,
+.dot-3
+{
+width: .5rem;
+height: .5rem;
+border-radius: 50%;
+
+}
+.dot-1{
+    background: rgb(219, 100, 215);
+    margin-bottom: 5px;
+}
+.dot-2{
+    background: #ddd;
+    border: 1px solid #18c41e;
+    margin-bottom: 5px;
+}
+.dot-3{
+    background: #ddd;
+    border: 1px solid #50bc16;
+}
+.dots{
+    margin-top: 15rem;
+    display: flex;
+    flex-direction: column;
+}
+
